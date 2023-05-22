@@ -28,3 +28,50 @@ h4 {
 .btn:hover {
     background-color: #45a049;
 }
+
+.logo-1 {
+    margin: 24px;
+    width: 100px;
+    height: 40px;
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.card-1 {
+    background-color: rgba(128, 128, 128, 0.154);
+    border-radius: 5px;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+
+.card-1:hover {
+    border-radius: none;
+    color: black;
+    background: #ffffff;
+    transition: 0.5s;
+}
+
+ol,
+li {
+    list-style: none;
+}
