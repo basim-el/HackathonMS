@@ -1,0 +1,137 @@
+  
+  .logo-img {
+    height: 70px;
+}
+
+
+.logo-1 {
+    margin: 24px;
+    width: 100px;
+    height: 40px;
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Akrobat', sans-serif;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.mt-5 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
+.ul-1 { color:  #F39200 !important; }
+.ul-2 { color:  #95C11F !important; }
+.ul-3 { color:  #2897D5 !important; }
+.ul-4 { color: #D60B52 !important; }
+
+.card-1 {
+    background-color: #F39200 !important;
+}
+
+.card-2 {
+    background-color: #95C11F !important; 
+}
+
+.card-3 {
+    background-color: #2897D5 !important; 
+}
+
+.card-4 {
+    background-color: #D60B52 !important; 
+}
+
+.ul-0 {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .li-a {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .li-a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #000000;
+  }
+  
+  .ul-0 li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .ul-0 li:last-child:before {
+    display: none;
+  }
+
+  .img-1 {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    border-radius: 101px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #F39200 ;
+    border-right: 1px solid #95C11F;
+    border-bottom: 1px solid #2897D5;
+    border-left: 1px solid #D60B52;
+}
+
+.arbre {
+    width: 900px !important;
+    display: flex;
+    margin: auto;
+}
