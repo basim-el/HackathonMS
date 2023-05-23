@@ -34,7 +34,12 @@ body {
 }
 
 .mt-5 {
-    margin-top: -1rem !important;
+    margin-top: -0rem !important;
+}
+
+.mt-6 {
+    margin-top: -0rem !important;
+    padding-bottom: 60px !important;
 }
 
 h2,
@@ -114,4 +119,8 @@ li {
     height: 100px;
     object-fit: contain;
     margin: 10px;
+}
+
+.logoGhins {
+    width: 5%;
 }
